@@ -177,3 +177,16 @@ font-weight: 400;
     padding-bottom: 4rem ;
     margin-top: 4rem;
 }
+/* Sobre Nosotros */
+@media (min-width: 768px){
+ .sobre-nosotros {
+     display: flex;
+     justify-content: space-between;
+ }
+ .sobre-nosotros__texto{
+    flex: 0 0 calc(50% - 1rem);
+}
+ .sobre-nosotros__imagen{
+        flex: 0 0 calc(50% - 1rem);
+    }
+}
